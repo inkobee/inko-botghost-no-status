@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["playing /inko", "playing /ink", "playing /in", "playing /i", "playing /", "playing /i", "playing /in", "playing /ink", "playing /inko"];
-const statusTypes = ['dnd', 'idle'];
+const statusMessages = ["playing /inko"];
+const statusTypes = ['idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
