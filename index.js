@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["playing /inko"];
-const statusTypes = ['idle'];
+const statusTypes = ['dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
